@@ -43,7 +43,7 @@
         <dependency>
             <groupId>build.buf.protoc-gen-validate</groupId>
             <artifactId>pgv-java-stub</artifactId>
-            <version>1.0.0</version>
+            <version>0.6.13</version>
         </dependency>
     </dependencies>
 
@@ -95,7 +95,7 @@
                             <pluginParameter>lang=java</pluginParameter>
                             <pluginId>java-pgv</pluginId>
                             <pluginArtifact>
-                                build.buf.protoc-gen-validate:protoc-gen-validate:1.0.0:exe:${os.detected.classifier}
+                                build.buf.protoc-gen-validate:protoc-gen-validate:0.6.13:exe:${os.detected.classifier}
                             </pluginArtifact>
                         </configuration>
                     </execution>
