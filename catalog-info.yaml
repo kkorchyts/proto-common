@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proto-common
+  annotations:
+    github.com/project-slug: kkorchyts/proto-common
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
