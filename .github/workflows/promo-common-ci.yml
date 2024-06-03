@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
-        run: mvn --file promo-common/pom.xml clean install
+        run: mvn --file pom.xml clean install
 
 #  deploy:
 #    needs: build
