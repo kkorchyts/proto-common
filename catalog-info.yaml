@@ -11,8 +11,5 @@ spec:
   system: delivery-portal
   ci:
     - type: github-actions
-      config:
-        repoUrl: https://github.com/kkorchyts/proto-common
-        projectName: promo-common-service
-        workflows:
-          - name: Promo Common Service CI/CD
+      name: Promo Common Service CI/CD
+      url: https://github.com/kkorchyts/proto-common/blob/main/.github/workflows/promo-common-ci.yml
