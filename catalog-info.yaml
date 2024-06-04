@@ -9,7 +9,7 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: delivery-portal
-  ci:
-    - type: github-actions
-      name: Promo Common Service CI/CD
-      url: https://github.com/kkorchyts/proto-common/actions?query=workflow%3ACI
+  # ci:
+  #   - type: github-actions
+  #     name: Promo Common Service CI/CD
+  #     url: https://github.com/kkorchyts/proto-common/actions?query=workflow%3ACI
