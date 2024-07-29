@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: proto-common-service-api
+  description: gRPC API for Proto common validation request
+  owner: team-b
+spec:
+  type:
+  definition: |
+
+    syntax = "proto3";
+    
+    package validation;
+    
+    import "google/protobuf/empty.proto";
+    
+    service ProtoValidationService {
+      rpc Validate (ValidateRequest) returns (ValidateResponse);
+    }
+    
+    message ValidateRequest {
+      string message_type = 1;
+      bytes message_data = 2;
+    }
+    
+    message ValidateResponse {
+      string result = 1;
+    }
