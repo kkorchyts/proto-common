@@ -5,9 +5,9 @@ metadata:
   description: gRPC API for Proto common validation request
   owner: team-b
 spec:
-  type:
+  type: grpc
+  lifecycle: experimental
   definition: |
-
     syntax = "proto3";
     
     package validation;
