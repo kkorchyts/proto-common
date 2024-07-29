@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: proto-common-service-api
   description: gRPC API for Proto common validation request
-  owner: team-b
+  owner: team-a
 spec:
   type: grpc
   lifecycle: experimental
