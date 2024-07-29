@@ -11,7 +11,7 @@ spec:
   owner: team-a
   system: delivery-portal
   providesApis:
-   - proto-common-service-api
+   - proto-common-service
   # ci:
   #   - type: github-actions
   #     name: Promo Common Service CI/CD
