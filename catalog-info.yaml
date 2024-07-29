@@ -12,7 +12,3 @@ spec:
   system: delivery-portal
   providesApis:
    - proto-common-service
-  # ci:
-  #   - type: github-actions
-  #     name: Promo Common Service CI/CD
-  #     url: https://github.com/kkorchyts/proto-common/actions?query=workflow%3ACI
