@@ -4,13 +4,14 @@ metadata:
   name: proto-common
   annotations:
     github.com/project-slug: kkorchyts/proto-common
-    #github.com/project-cicd: https://github.com/kkorchyts/proto-common/actions
     backstage.io/techdocs-ref: url:https://github.com/kkorchyts/proto-common
 spec:
   type: service
   lifecycle: experimental
   owner: team-a
   system: delivery-portal
+  providesApis:
+    - proto-common-service-api
   # ci:
   #   - type: github-actions
   #     name: Promo Common Service CI/CD
